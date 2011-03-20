@@ -19,7 +19,7 @@
     </em:targetApplication>
 
     <!-- Front End MetaData -->
-    <em:name>Mobile Do Not Track</em:name>
+    <em:name>MobileDNT</em:name>
     <em:description>Adds a visible preference toggle in Mobile Firefox for Do Not Track support </em:description>
     <em:creator>Aaron Train</em:creator>
   </Description>
