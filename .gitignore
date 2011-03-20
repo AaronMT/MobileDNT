@@ -1,3 +1,4 @@
 .profile
 .settings
+.DS_Store
 *.xpi
