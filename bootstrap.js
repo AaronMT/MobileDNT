@@ -54,7 +54,7 @@ function load(win) {
 }
 
 function unload(win) {
-  let setting = win.document.getElementById("clearhistory-setting");
+  let setting = win.document.getElementById("dnt-setting");
   if (setting)
     setting.parentNode.removeChild(setting);
 }
