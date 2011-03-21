@@ -49,8 +49,6 @@ function load(win) {
   setting.setAttribute("title", "Do Not Track");
   setting.setAttribute("pref", "privacy.donottrackheader.enabled");
   document.getElementById("prefs-privacy").appendChild(setting);
-
-  //setting.addEventListener("oninputchanged", toggle, false);
 }
 
 function unload(win) {
