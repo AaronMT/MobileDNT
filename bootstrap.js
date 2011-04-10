@@ -46,7 +46,7 @@ function load(win) {
   let setting = document.createElement("setting");
   setting.setAttribute("id", "dnt-setting");
   setting.setAttribute("type", "bool");
-  setting.setAttribute("title", "Do Not Track");
+  setting.setAttribute("title", "Request tracking opt-out");
   setting.setAttribute("pref", "privacy.donottrackheader.enabled");
   document.getElementById("prefs-privacy").appendChild(setting);
 }
